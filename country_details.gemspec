@@ -1,6 +1,8 @@
 Gem::Specification.new do |s|
   s.name        = 'country_details'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
+  s.add_development_dependency "reset-client",
+    [">= 2.1.0"]
   s.date        = '2020-01-11'
   s.summary     = "CountryDetails!"
   s.description = "Get all details of any country by name of that country"
