@@ -1,6 +1,6 @@
 require 'rest-client'
 
-module CountryDetail
+module CountryDetails
 
   class Get
     @@all_countries = []
