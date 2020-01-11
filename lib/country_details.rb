@@ -1,7 +1,5 @@
 require 'rest-client'
-
 module CountryDetails
-
   class Get
     @@all_countries = []
     def initialize
@@ -19,7 +17,7 @@ module CountryDetails
       return {'success': 'false', 'Error': 'Invalid country name!'} unless detail.present?
       return detail
     end
-   
+
     def details_by_code(code, options = {})
       code = code.upcase
       if code.length == 2
@@ -30,6 +28,5 @@ module CountryDetails
       return {'success': 'false', 'Error': 'Invalid code!'} unless detail.present? 
       return detail
     end
-
   end
 end
