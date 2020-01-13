@@ -24,7 +24,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install rest-client
-    $ gem install branch_io
+    $ gem install country_details
 
 ## Usage
 
