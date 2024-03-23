@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'country_details'
   s.version     = '0.0.2'
-  s.add_development_dependency "reset-client",
+  s.add_development_dependency "rest-client",
     [">= 2.1.0"]
   s.date        = '2020-01-11'
   s.summary     = "CountryDetails!"
